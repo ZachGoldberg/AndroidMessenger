@@ -1,0 +1,32 @@
+Version 0.5 - 27/04/2002
+========================
+Added keepalive sending & timeout detection.  This vastly improves connection
+stability.
+Added additional methods for buddy groups based on patch from Jon Madison
+
+Version 0.4 - 11/02/2002
+========================
+Added support for retrieving config from the server
+Added support for storing config on the server
+JaimConnection now supports multiple event listeners
+Added support for Permit lists
+Added getErrorDescription implementation to ErrorTocResponse
+Fixed an error in the parsing of Error TOC responses
+Added LoginComplete and ConnectionLost Toc responses
+Event notification to listeners is now asynchronous to the main JaimConnection
+thread
+
+Version 0.3 - 15/07/2002
+========================
+Turned off debugging messages by default
+Changed behaviour of addBuddy - it now works after signon (Thanks James)
+Changed behaviour of login - it now throws an exception if login fails
+
+Version 0.2 - 31/05/2002
+========================
+Added send rate limiting to sendIM()
+Fixed a bug in the normalise function (Thanks Akom)
+
+Version 0.1 - 08/05/2002
+========================
+Initial release

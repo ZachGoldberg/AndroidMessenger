@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Messenger</string>
+    <string name="conversation_window">Conversations</string>
+    <string name="accounteditor_window">Account Editor</string>
+    <string name="status_text">App Opened</string>
+    <string name="connect_text">Connect</string>
+    <string name="exit_text">Exit</string>
+    <string name="add_account">Add Account</string>
+    <string name="edit_account">Edit Selected Account</string>
+</resources>

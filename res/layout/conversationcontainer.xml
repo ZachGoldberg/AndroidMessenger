@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/mainLayout" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical">
+	<LinearLayout android:id="@+id/buttonRows"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical">
+	</LinearLayout>
+	<LinearLayout android:id="@+id/statusLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal">
+		<Button android:id="@+id/closeButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Close">
+		</Button>
+		<TextView android:id="@+id/status" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="top">
+		</TextView>
+	</LinearLayout>
+	<ScrollView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:gravity="top" android:id="@+id/scrollBox">
+		<TextView android:id="@+id/messageBox"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text=""
+			android:layout_weight="1" android:gravity="top"
+			android:scrollbars="vertical">
+		</TextView>
+	</ScrollView>
+	<EditText android:id="@+id/inputBox" android:layout_width="fill_parent"
+		android:layout_height="50px" android:text=""
+		android:gravity="bottom">
+	</EditText>
+</LinearLayout>

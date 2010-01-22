@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="private" author="true" classpath="." destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="com.google.android.androidmessenger.protocols" source="1.5" sourcefiles="src/com/google/android/androidmessenger/AccountEditor.java,src/com/google/android/androidmessenger/AndroidMessenger.java,src/com/google/android/androidmessenger/ConversationContainer.java" sourcepath="src" splitindex="true" use="true" version="true">
+            <link href="file:/home/zgold/progrepo/workspace/AndroidMessenger/doc/"/>
+            <link href="file:/opt/android-sdk_m5-rc14_linux-x86/docs/reference"/>
+        </javadoc>
+    </target>
+</project>

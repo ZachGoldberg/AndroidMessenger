@@ -1,0 +1,18 @@
+
+*Modify AMProtocolMapper to associate an icon with each class (and have the classes give the resource to the mapper)
+  !Will also need to modify ProgrammaticSpinnerAdapter
+  +Show icon in buddy list and on each connection
+  +Show icon in spinner in AccountEditor
+
+
+*Settings... lots of them!
+  +Show offline buddies 
+  +Show empty groups 
+  +Show timestamps in textView (modify it to have smaller text? different (smaller) font?)
+
+
+*Handle formatted text somehow
+
+*If zero connections display a hint
+
+*Make scrolling to bottom of message box work
